@@ -9,7 +9,7 @@ import os
 backup_dir = os.environ.get('GITHUB_BACKUP_DIR', '/tmp/github_backup')
 token = os.environ.get('GITHUB_TOKEN')
 urls = [
-    'https://api.github.com/orgs/ArthurMediaGroup/repos',
+    'https://api.github.com/orgs/lemonde/repos',
     'https://api.github.com/user/repos'
 ]
 
